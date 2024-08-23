@@ -1,28 +1,3 @@
-# This script is used to run the HFE benchmark:
-#
-#    # Select SERVER: redis | keydb | tairhash | redis-expire
-#    SERVER=redis
-#    echo "1. Single hash, 10 million fields with distant expiry"
-#    python3 ./benchmark.py 10000000 1 $SERVER 10000 0 0
-#
-#    echo "2. Single hash, 10 million fields with 3sec expiry"
-#    python3 ./benchmark.py 10000000 1 $SERVER 3 0 0
-#
-#    echo "3. Single hash, 10 million fields with distant expiry (memtier: -t 2 -c 5)"
-#    python3 ./benchmark.py 10000000 1 $SERVER 10000 1 0
-#
-#    echo "4. Single hash, 10 million fields. All expired at distant specific time"
-#    python3 ./benchmark.py 10000000 1 $SERVER 10000 0 1
-#
-#    echo "5. 10 million hashes, single field with distant expiry"
-#    python3 ./benchmark.py 10000000 0 $SERVER 10000 0 0
-#
-#    echo "6. 10 million hashes, single field with 3SEC expiry"
-#    python3 ./benchmark.py 10000000 0 $SERVER 3 0 0
-#
-#    echo "7. 10 million hashes, all expired at distant specific time"
-#    python3 ./benchmark.py 10000000 0 $SERVER 10000 0 1
-
 PORT="6379"
 HOST="127.0.0.1"
 CLIENTS=1
