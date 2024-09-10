@@ -13,7 +13,7 @@ consumption compared to KeyDB of Snap and TairHash of Alibaba.
 
 ## Blog Post
 For a detailed explanation of the HFE feature and benchmark results, please refer to the 
-[accompanying blog post](#)(TBD).
+[accompanying blog post](https://redis.io/blog/hash-field-expiration-architecture-and-benchmarks/).
 
 ## Usage
 
